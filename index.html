@@ -16,6 +16,86 @@
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	</head>
+	<style type="text/css">
+		.white{
+			color: white;
+		}
+		#cssSlider {
+		  width: 1000px;
+			height: 300px;
+			overflow: hidden;
+			border: 10px solid #666;
+		}
+
+		#sliderImages {
+			width : 4000px;
+			height: 300px;
+			overflow: hidden;
+			
+			/* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
+			animation: slide 16s infinite;
+			-moz-animation: slide 16s infinite;
+			-webkit-animation: slide 16s infinite;
+			-o-animation: slide 16s infinite;
+		}
+
+		#sliderImages img {
+			float: left;
+		}
+
+		@keyframes slide{
+			0%{margin-left: 0px;}
+			17%{margin-left: 0px;}
+			20%{margin-left: -1000px;}
+			37%{margin-left: -1000px;}
+			40%{margin-left: -2000px;}
+			57%{margin-left: -2000px;}
+			60%{margin-left: -3000px;}
+			77%{margin-left: -3000px;}
+			80%{margin-left: -4000px;}
+			97%{margin-left: -4000px;}
+			100%{margin-left: 0px;}
+		}
+
+		@-moz-keyframes slide{
+			0%{margin-left: 0px;}
+			17%{margin-left: 0px;}
+			20%{margin-left: -1000px;}
+			37%{margin-left: -1000px;}
+			40%{margin-left: -2000px;}
+			57%{margin-left: -2000px;}
+			60%{margin-left: -3000px;}
+			77%{margin-left: -3000px;}
+			80%{margin-left: -4000px;}
+			100%{margin-left: -4000px;}
+		}
+
+		@-webkit-keyframes slide{
+			0%{margin-left: 0px;}
+			17%{margin-left: 0px;}
+			20%{margin-left: -1000px;}
+			37%{margin-left: -1000px;}
+			40%{margin-left: -2000px;}
+			57%{margin-left: -2000px;}
+			60%{margin-left: -3000px;}
+			77%{margin-left: -3000px;}
+			80%{margin-left: -4000px;}
+			100%{margin-left: -4000px;}
+		}
+
+		@-o-keyframes slide{
+			0%{margin-left: 0px;}
+			17%{margin-left: 0px;}
+			20%{margin-left: -1000px;}
+			37%{margin-left: -1000px;}
+			40%{margin-left: -2000px;}
+			57%{margin-left: -2000px;}
+			60%{margin-left: -3000px;}
+			77%{margin-left: -3000px;}
+			80%{margin-left: -4000px;}
+			100%{margin-left: -4000px;}
+		}
+	</style>
 	<body class="landing">
 
 		<!-- Page Wrapper -->
@@ -46,79 +126,67 @@
 				<!-- Banner -->
 				<section id="banner">
 					<div class="inner">
-						<h2 style="color: white">SCIENCESATIONAL 2017</h2>
-						<h2 style="color: white">FAKULTAS HUKUM UNIVERSITAS INDONESIA</h2>
-						<p style="color: white">Indonesia Berkarya</p>
+						<div>
+							<h2 style="color: white">SCIENCESATIONAL 2017</h2>
+							<h2 style="color: white">FAKULTAS HUKUM UNIVERSITAS INDONESIA</h2>
+						</div>
+						<div class="d-inline-block bg-warning">
+							<h4 style="color: white">Indonesia Berkarya</h4>
+						</div>
 					</div>
 					<a href="#one" class="more scrolly" style="color: white">See More</a>
 				</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>LK2 FHUI</h2>
-								<p align="justify">
-									<span class="image left"><img src="images/lembaga-kajian-keilmuan.jpg" alt="" class="img-thumbnail" /></span>
-									&emsp;&emsp; Lembaga Kajian Keilmuan Fakultas Hukum Universitas Indonesia (LK2 FHUI) merupakan salah satu badan otonom di lingkungan Fakultas Hukum Universitas Indonesia yang bergerak di ranah kegiatan penalaran dan pengkajian ilmiah terutama di bidang hukum. LK2 FHUI didirikan pada tahun 1988 dan diresmikan menjadi Badan Otonom pada tanggal 29 Mei 1999 melalui SK Mendikbud No. 155/U/1988. Lembaga ini lahir sebagai jawaban atas tantangan perkembangan intelektual dewasa ini yang semakin kompleks dengan mahasiswa sebagai salah satu aktor kuncinya. Sebagai lembaga yang bergerak di bidang riset dan kajian, LK2 FHUI memiliki komitmen dalam menghasilkan produk-produk yang bermanfaat bagi perkembangan ilmu pengetahuan khususnya di bidang hukum. Seiring dengan perkembangan ilmu pengetahuan yang dinamis, LK2 FHUI terus berupaya menjaga relevansinya dengan memperbaiki diri khususnya dalam hal riset dan kajian mengenai isu hukum. Hal ini bertujuan agar eksistensi LK2 FHUI dapat bernilai guna bagi masyarakat pada umumnya dan civitas akademika FHUI pada khususnya.
-								</p>
-							</header>
-						</div>
-					</section>
-
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>SCIENCESATIONAL 2017</h2>
-								<p align="justify">
-									<span class="image left"><img src="images/logo.jpg" alt="" class="img-thumbnail" /></span>
-									&emsp;&emsp; <i>SOCIAL SCIENCE IN NATIONAL LAW COMPETITION 2017 (SCIENCESATIONAL 2017)</i> mengangkat tema <b><i>“EKONOMI KREATIF: MEMBANGUN KERANGKA HUKUM BAGI KEKUATAN BARU PEREKONOMIAN INDONESIA”</i></b>. Rangkaian acara SCIENCESATIONAL 2017 ini merupakan ajang bagi mahasiswa-mahasiswi Fakultas Hukum yang terdapat di Indonesia untuk berkontribusi dalam mengatasi permasalahan aktual yang sedang dihadapi oleh Indonesia. 
-								</p>
-								<p align="justify">
-									&emsp;&emsp; SOCIAL SCIENCE IN NATIONAL LAW COMPETITION 2017 (SCIENCESATIONAL 2017) mengangkat tema “EKONOMI KREATIF: MEMBANGUN KERANGKA HUKUM BAGI KEKUATAN BARU PEREKONOMIAN INDONESIA”. Rangkaian acara SCIENCESATIONAL 2017 ini merupakan ajang bagi mahasiswa-mahasiswi Fakultas Hukum yang terdapat di Indonesia untuk berkontribusi dalam mengatasi permasalahan aktual yang sedang dihadapi oleh Indonesia. 
-								</p>
-							</header>
-						</div>
-					</section>
-
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>EKONOMI KREATIF: MEMBANGUN KERANGKA HUKUM BAGI KEKUATAN BARU PEREKONOMIAN INDONESIA</h2>
-								<p align="justify">
-									<span class="image left"><img src="images/tema.jpg" alt="" class="img-thumbnail" /></span>
-									&emsp;&emsp;
-									Fakta bahwa kebudayaan memiliki nilai ekonomi tentunya sangat menguntungkan bagi Indonesia. Bagaimana tidak? Sejak ratusan tahun silam, masyarakat Indonesia dari Sabang sampai Merauke telah membangun berbagai kebudayaan yang indah dan menawan. Selain keberagaman budaya, Indonesia pun kaya akan sumber daya alam dan manusia yang dimilikinya. Berangkat dengan bekal ini, konsepsi Ekonomi Kreatif menjadi prospek yang menjanjikan bagi pembangunan Indonesia. Ekonomi Kreatif mengupayakan ide – sebuah modal yang sangat universal – untuk menjadi input dan output yang memiliki kreativitas dan inovasi dari suatu kegiatan ekonomi. Sesungguhnya, ekonomi kreatif telah memiliki bagian dalam pembangunan negara sejak lama. Akan tetapi, sampai saat ini masih terdapat berbagai kendala yang dihadapi dalam usaha mengembangkan Ekonomi Kreatif. Beberapa kendala itu di antaranya berada di ranah hukum. Sebagai generasi muda, berkontribusi bagi kemajuan bangsa merupakan sebuah kewajiban. Terlebih, mahasiswa hukum perlu menyumbangkan pemikirannya dengan ilmu yang dimiliki untuk memberikan kontribusi pada penyelesaian masalah yang dikemukakan di atas. Oleh karena itu, Sciencational 2017 mengusung tema <b>“Ekonomi Kreatif: Membangun Kerangka Hukum bagi Kekuatan Baru Perekonomian Indonesia”</b> mengajak mahasiswa hukum di seluruh Indonesia untuk turut bergabung dan berpartisipasi dalam salah satu acara terbesar Fakultas Hukum Universitas Indonesia. 
-								</p>
-								
-							</header>
-						</div>
-					</section>
+				
 
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
-							<div class="image"><img src="images/funfact-1.jpg" alt="" /></div><div class="content">
-								<h2>FUN FACT #1</h2>
+							<div class="image"><img src="images/lembaga-kajian-keilmuan.jpg" alt="" class="img-thumbnail" /></div><div class="content">
+								<h2 class="white">LK2 FHUI</h2>
+								<p class="white" align="justify">
+									&emsp;&emsp; Lembaga Kajian Keilmuan Fakultas Hukum Universitas Indonesia (LK2 FHUI) merupakan salah satu badan otonom di lingkungan Fakultas Hukum Universitas Indonesia yang bergerak di ranah kegiatan penalaran dan pengkajian ilmiah terutama di bidang hukum. LK2 FHUI didirikan pada tahun 1988 dan diresmikan menjadi Badan Otonom pada tanggal 29 Mei 1999 melalui SK Mendikbud No. 155/U/1988. Lembaga ini lahir sebagai jawaban atas tantangan perkembangan intelektual dewasa ini yang semakin kompleks dengan mahasiswa sebagai salah satu aktor kuncinya. Sebagai lembaga yang bergerak di bidang riset dan kajian, LK2 FHUI memiliki komitmen dalam menghasilkan produk-produk yang bermanfaat bagi perkembangan ilmu pengetahuan khususnya di bidang hukum. Seiring dengan perkembangan ilmu pengetahuan yang dinamis, LK2 FHUI terus berupaya menjaga relevansinya dengan memperbaiki diri khususnya dalam hal riset dan kajian mengenai isu hukum. Hal ini bertujuan agar eksistensi LK2 FHUI dapat bernilai guna bagi masyarakat pada umumnya dan civitas akademika FHUI pada khususnya.
+								</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/funfact-2.jpg" alt="" /></div><div class="content">
-								<h2>FUN FACT #2</h2>
-
+							<div class="image"><img src="images/logo.jpg" alt="" class="img-thumbnail" /></div><div class="content">
+								<h2 class="white">SCIENCESATIONAL 2017</h2>
+								<p class="white" align="justify">
+									&emsp;&emsp; <i>SOCIAL SCIENCE IN NATIONAL LAW COMPETITION 2017 (SCIENCESATIONAL 2017)</i> mengangkat tema <b><i>“EKONOMI KREATIF: MEMBANGUN KERANGKA HUKUM BAGI KEKUATAN BARU PEREKONOMIAN INDONESIA”</i></b>. Rangkaian acara SCIENCESATIONAL 2017 ini merupakan ajang bagi mahasiswa-mahasiswi Fakultas Hukum yang terdapat di Indonesia untuk berkontribusi dalam mengatasi permasalahan aktual yang sedang dihadapi oleh Indonesia. 
+								</p>
+								<p class="white" align="justify">
+									&emsp;&emsp; SOCIAL SCIENCE IN NATIONAL LAW COMPETITION 2017 (SCIENCESATIONAL 2017) mengangkat tema “EKONOMI KREATIF: MEMBANGUN KERANGKA HUKUM BAGI KEKUATAN BARU PEREKONOMIAN INDONESIA”. Rangkaian acara SCIENCESATIONAL 2017 ini merupakan ajang bagi mahasiswa-mahasiswi Fakultas Hukum yang terdapat di Indonesia untuk berkontribusi dalam mengatasi permasalahan aktual yang sedang dihadapi oleh Indonesia. 
+								</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/funfact-3.jpg" alt="" /></div><div class="content">
-								<h2>FUN FACT #3</h2>
+							<div class="image">
+								<img src="images/tema.jpg" alt="" class="img-thumbnail" />
+							</div>
+							<div class="content">
+								<h2 class="white">EKONOMI KREATIF: MEMBANGUN KERANGKA HUKUM BAGI KEKUATAN BARU PEREKONOMIAN INDONESIA</h2>
+								<p class="white" align="justify">
+									&emsp;&emsp;
+									Fakta bahwa kebudayaan memiliki nilai ekonomi tentunya sangat menguntungkan bagi Indonesia. Bagaimana tidak? Sejak ratusan tahun silam, masyarakat Indonesia dari Sabang sampai Merauke telah membangun berbagai kebudayaan yang indah dan menawan. Selain keberagaman budaya, Indonesia pun kaya akan sumber daya alam dan manusia yang dimilikinya. Berangkat dengan bekal ini, konsepsi Ekonomi Kreatif menjadi prospek yang menjanjikan bagi pembangunan Indonesia. Ekonomi Kreatif mengupayakan ide – sebuah modal yang sangat universal – untuk menjadi input dan output yang memiliki kreativitas dan inovasi dari suatu kegiatan ekonomi. Sesungguhnya, ekonomi kreatif telah memiliki bagian dalam pembangunan negara sejak lama. Akan tetapi, sampai saat ini masih terdapat berbagai kendala yang dihadapi dalam usaha mengembangkan Ekonomi Kreatif. Beberapa kendala itu di antaranya berada di ranah hukum. Sebagai generasi muda, berkontribusi bagi kemajuan bangsa merupakan sebuah kewajiban. Terlebih, mahasiswa hukum perlu menyumbangkan pemikirannya dengan ilmu yang dimiliki untuk memberikan kontribusi pada penyelesaian masalah yang dikemukakan di atas. Oleh karena itu, Sciencational 2017 mengusung tema <b>“Ekonomi Kreatif: Membangun Kerangka Hukum bagi Kekuatan Baru Perekonomian Indonesia”</b> mengajak mahasiswa hukum di seluruh Indonesia untuk turut bergabung dan berpartisipasi dalam salah satu acara terbesar Fakultas Hukum Universitas Indonesia. 
+								</p>
 							</div>
 						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/funfact-4.jpg" alt="" /></div><div class="content">
-								<h2>FUN FACT #4</h2>
-							</div>
-						</section>
+						
 					</section>
+
+
+				<!-- <section>
+					<div id="cssSlider">
+					  <div id="sliderImages">
+							<img id="si_1" src="images/funfact-1.jpg" alt="" width="1000px" />
+							<img id="si_2" src="images/logo.jpg" alt="" />
+							<img id="si_3" src="images/logo.jpg" alt="" />
+							<img id="si_4" src="images/logo.jpg" alt="" />
+							<div style="clear:left;"></div>
+						</div>
+					</div>
+				</section> -->
 
 				<!-- Three -->
 					<section id="three" class="wrapper style3 special">
@@ -126,15 +194,15 @@
 							<ul class="features">
 								<li class="icon fa-user">
 									<h4>Contact Person</h4><br>
-									<h6><i class="fa fa-phone fa-1x" aria-hidden="true"></i> Ryszcha Mirdania-082261578828</h6>
-									<h6><i class="fa fa-phone fa-1x" aria-hidden="true"></i> Ansari Jowen-08116061097</h6>
+									<p><i class="fa fa-phone fa-1x" aria-hidden="true"></i> Ryszcha Mirdania - 082261578828</p>
+									<p><i class="fa fa-phone fa-1x" aria-hidden="true"></i> Ansari Jowen - 08116061097</p>
 								</li>
 								<li class="icon fa-globe">
 									<h4>Social Media</h4><br>
-									<h6><i class="fa fa-instagram fa-1x" aria-hidden="true"></i> ssational2017</h6>
-									<h6><i class="fa fa-twitter fa-1x" aria-hidden="true"></i> ssational2017</h6>
-									<h6>Line: @wjr5962u</h6>
-									<h6>Email: sciencesational.ui@gmail.com</h6>
+									<p><i class="fa fa-instagram fa-1x" aria-hidden="true"></i> ssational2017</p>
+									<p><i class="fa fa-twitter fa-1x" aria-hidden="true"></i> ssational2017</p>
+									<p>Line: @wjr5962u</p>
+									<p>@ sciencesational.ui@gmail.com</p>
 									
 								</li>
 							</ul>
@@ -147,7 +215,6 @@
 					<footer id="footer">
 						<ul class="copyright">
 							<li>&copy; SCIENCESATIONAL 2017</li>
-							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 
