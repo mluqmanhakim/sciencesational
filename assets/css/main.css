@@ -2510,7 +2510,7 @@
 			}
 
 		.spotlight .content {
-			padding: 2em 4em 0.1em 4em ;
+			padding: 2em 2em 2em 2em ;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
@@ -3779,10 +3779,10 @@
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-home.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-home.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-home.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-home.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3813,11 +3813,16 @@
 		background-color: #1d242a;
 	}
 
-/* MainKomp1 */
 
-	#mainKomp1 > header {
+
+	/* MainKomp */
+
+	#mainKomp > header {
 		padding: 12em 0 10em 0 ;
-		background-image: url("../../images/legislative_drafting.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-competition.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-competition.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-competition.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-competition.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3825,25 +3830,25 @@
 		text-align: center;
 	}
 
-		#mainKomp1 > header h2 {
+		#mainKomp > header h2 {
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
 		}
 
-		#mainKomp1 > header p {
+		#mainKomp > header p {
 			color: inherit;
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 			top: 0;
 		}
 
-			#mainKomp1 > header p a {
+			#mainKomp > header p a {
 				color: inherit;
 			}
 
 		@media screen and (max-width: 1680px) {
 
-			#mainKomp1 > header {
+			#mainKomp > header {
 				padding: 10em 0 8em 0 ;
 			}
 
@@ -3851,7 +3856,7 @@
 
 		@media screen and (max-width: 1280px) {
 
-			#mainKomp1 > header {
+			#mainKomp > header {
 				padding: 8em 3em 6em 3em ;
 			}
 
@@ -3859,7 +3864,7 @@
 
 		@media screen and (max-width: 980px) {
 
-			#mainKomp1 > header {
+			#mainKomp > header {
 				padding: 10em 3em 8em 3em ;
 			}
 
@@ -3867,31 +3872,31 @@
 
 		@media screen and (max-width: 736px) {
 
-			#mainKomp1 > header {
+			#mainKomp > header {
 				padding: 5em 3em 3em 3em ;
 			}
 
-				#mainKomp1 > header h2 {
+				#mainKomp > header h2 {
 					font-size: 1.25em;
 					margin: 0 0 1em 0;
 				}
 
 		}
 
-	body.is-mobile #mainKomp1 > header {
+	body.is-mobile #mainKomp > header {
 		background-attachment: scroll;
 	}
 
 
 
-	/* MainKomp2 */
+		/* MainSeminar */
 
-	#mainKomp2 > header {
+	#mainSeminar > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/karya-tulis-ilmiah.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/karya-tulis-ilmiah.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/karya-tulis-ilmiah.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/karya-tulis-ilmiah.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-seminar.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-seminar.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-seminar.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-seminar.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3899,25 +3904,25 @@
 		text-align: center;
 	}
 
-		#mainKomp2 > header h2 {
+		#mainSeminar > header h2 {
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
 		}
 
-		#mainKomp2 > header p {
+		#mainSeminar > header p {
 			color: inherit;
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 			top: 0;
 		}
 
-			#mainKomp2 > header p a {
+			#mainSeminar > header p a {
 				color: inherit;
 			}
 
 		@media screen and (max-width: 1680px) {
 
-			#mainKomp2 > header {
+			#mainSeminar > header {
 				padding: 10em 0 8em 0 ;
 			}
 
@@ -3925,7 +3930,7 @@
 
 		@media screen and (max-width: 1280px) {
 
-			#mainKomp2 > header {
+			#mainSeminar > header {
 				padding: 8em 3em 6em 3em ;
 			}
 
@@ -3933,7 +3938,7 @@
 
 		@media screen and (max-width: 980px) {
 
-			#mainKomp2 > header {
+			#mainSeminar > header {
 				padding: 10em 3em 8em 3em ;
 			}
 
@@ -3941,17 +3946,90 @@
 
 		@media screen and (max-width: 736px) {
 
-			#mainKomp2 > header {
+			#mainSeminar > header {
 				padding: 5em 3em 3em 3em ;
 			}
 
-				#mainKomp2 > header h2 {
+				#mainSeminar > header h2 {
 					font-size: 1.25em;
 					margin: 0 0 1em 0;
 				}
 
 		}
 
-	body.is-mobile #mainKomp2 > header {
+	body.is-mobile #mainSeminar > header {
+		background-attachment: scroll;
+	}
+
+
+		/* MainReg */
+
+	#mainReg > header {
+		padding: 12em 0 10em 0 ;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-regis.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-regis.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-regis.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/baru/header-page-regis.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+		#mainReg > header h2 {
+			font-size: 1.75em;
+			margin: 0 0 0.5em 0;
+		}
+
+		#mainReg > header p {
+			color: inherit;
+			letter-spacing: 0.225em;
+			text-transform: uppercase;
+			top: 0;
+		}
+
+			#mainReg > header p a {
+				color: inherit;
+			}
+
+		@media screen and (max-width: 1680px) {
+
+			#mainReg > header {
+				padding: 10em 0 8em 0 ;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#mainReg > header {
+				padding: 8em 3em 6em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#mainReg > header {
+				padding: 10em 3em 8em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#mainReg > header {
+				padding: 5em 3em 3em 3em ;
+			}
+
+				#mainReg > header h2 {
+					font-size: 1.25em;
+					margin: 0 0 1em 0;
+				}
+
+		}
+
+	body.is-mobile #mainReg > header {
 		background-attachment: scroll;
 	}
